@@ -15,6 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          docker ps -a
+          docker build -t exploitzone:v01. .
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
